@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="kk-KZ"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>LOGOVO — Бет табылмады</title>
+<body style="color:#f6eedf;background:#0c0c0c;font:1rem system-ui;margin:3rem">
+<main><h1>Бет табылмады</h1><a style="color:#e4b87f" id="home" href="./">LOGOVO · Басты бет</a></main>
+<script>const segments=location.pathname.split('/').filter(Boolean);
+const application=new Set(['kk','en','ru','booking','branch','admin','barber','account','manage','privacy','404.html']);
+const base=location.hostname.endsWith('.github.io') && segments.length && !application.has(segments[0]) ? '/'+segments[0]+'/' : '/';
+document.getElementById('home').href=base;</script>
+</body></html>
